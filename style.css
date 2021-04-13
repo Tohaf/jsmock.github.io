@@ -1,0 +1,39 @@
+body>table{
+	width: 80%;
+}
+
+.at{
+	width:100%;
+	margin:20px;
+	padding: 20px; 	
+}
+input[type=text],[type=email]{
+	width: 40%;
+	margin: 10px;
+	padding: 4px;
+	justify-content: space-between;
+	font-weight: bold;
+	align-items: auto;
+}
+.gen{
+	margin: 10px;
+	width: 20%;
+}
+.sub{
+	
+	margin: 10px  200px;
+
+}	
+
+label{
+	font-size: 20px;
+}
+input [type=submit]{
+	cursor: pointer;
+}
+thead{
+	background-color: gray;
+}
+a{
+	cursor: pointer;
+}

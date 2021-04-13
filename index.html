@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript mock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<form class="at" onsubmit = "event.preventDefault();onFormSubmit();">
+					<div>
+						<label>First Name:</label>
+						<input type="text" name="firstName" id="firstName">
+					</div>
+					<div>
+						<label>Last Name:</label>
+						<input type="text" name="lastName" id="lastName">
+					</div>
+					<div>
+						<label>Email Address:</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div>
+						<label>	Gender:</label>
+						<select name="gender" class="gen" id="gender">
+							<option value="gender" > Male	</option>
+							<option value="gender"> Female	</option>
+
+						</select>
+
+					</div>
+					<div id="check">
+						<input type="checkbox" value="checkbox">"Recently came in to Nigeria within the last 14 days"
+
+					</div>
+					<div class="sub" id="submit">
+						<input type="submit"  value="submit">
+
+					</div>
+
+					
+				</form>
+			</td>
+			
+				<table id="head">
+					<thead>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Email Address</th>
+							<th>Gender</th>
+							<th>Recently came in to Nigeria<br> within the last 14<br> days</th>
+							<th></th>
+
+						</tr>
+
+					</thead>
+					<tbody>
+
+
+					</tbody>
+
+				</table>
+				
+			
+		</tr>
+	</table>
+	<script src="script.js"></script>
+</body>
+</html>
